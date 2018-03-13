@@ -7,7 +7,7 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
-// Test For Git Test1
+// Test For Git dev
 
 @NgModule({
   declarations: [
