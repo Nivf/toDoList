@@ -1,0 +1,48 @@
+page-tasks {
+    .toolbar-background-md {
+        background-color: #4c87da;
+        background-color: #4c87da;
+        background-image: -webkit-radial-gradient(50% top, circle, rgb(182, 208, 255) 0%, rgba(84,90,182,0) 75%),-webkit-radial-gradient(right top, circle, #4c87da 0%, rgba(121,74,162,0) 57%);
+        background-repeat: no-repeat;
+        background-size: 100% 1000px;
+        color: #c7c0de;
+        margin: 0;
+        padding: 20px;    
+      }
+    .toolbar-title-md {
+        color: #ffffff;
+    }
+    .centerHeader{
+        margin-top: auto;
+        font-weight: 350;
+      }
+    .task-box {
+        padding: 10px 10px 0px 20px;
+        margin: auto;
+        width: 80%;
+      }
+      .card-header-md {
+        font-size: 1.6rem;
+        color: #222;
+        padding: 16px;
+        background: powderblue;
+    }
+    .card-header{
+    padding-bottom: 1px;
+    padding-top: 1px;
+    padding-left: 1px;
+    padding-right: 1px;
+    } //card-header-md
+    #addBTN {
+        background-color: #ea9794
+    }
+    .item-md {
+        border-bottom: 1px solid #d8d6d6;
+    }
+    #addICON{
+        padding: 0 2px;
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+ 
+}

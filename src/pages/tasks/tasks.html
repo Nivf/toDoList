@@ -1,0 +1,58 @@
+<ion-header>
+        <ion-navbar color="parimary" hideBackButton >
+                <ion-title>
+                 <div class="centerHeader">
+                        My Tasks
+                </div>
+                </ion-title>
+               <!--  <ion-buttons end>
+                  <button ion-button icon-only (click)="addItem()"><ion-icon name="add-circle" color="white" color="vibrant"></ion-icon></button>
+                </ion-buttons> -->
+              </ion-navbar>
+</ion-header>
+<ion-content padding id="page4">
+    <div class="task-box">
+        <ion-card>
+                <ion-card-header item-start>
+                        <ion-item style="background-color: powderblue;"> <span>Hi <b>{{userName}}</b>, these are your tasks: </span>
+                        <button id="addBTN" ion-button round block="false" item-end icon-only (click)="add()">
+                                <ion-icon id="addICON" name="add-circle"></ion-icon>
+                        </button>
+       
+                </ion-item>
+                </ion-card-header>
+          <ion-list>
+                <ion-item detail-push *ngFor="let task of tasks; let i = index">
+                        {{task}}
+                  <button ion-button outline item-end icon-left (click)="delete(i)">
+                    <ion-icon name="close"></ion-icon>
+                    Delete
+                  </button>
+                </ion-item>
+              </ion-list>
+              </ion-card>
+        </div>
+
+      <!--         <ion-card>
+                    <ion-item  *ngFor="let task of tasks;let i = index">
+                            <button block >
+                                    <ion-icon name="star" item-start></ion-icon>
+                                    {{task}}
+                                  </button>
+                    </ion-item>
+                  </ion-card>
+    
+    
+        <ion-list>
+                <ion-item detail-push *ngFor="let task of tasks">
+                        {{task}}
+                        <button ion-button outlined item-end>
+                                <ion-icon name="arrow-dropright"></ion-icon></button></ion-item>
+              </ion-list> -->
+    
+</ion-content>
+<ion-footer>
+<div class="myFooter">
+                This is a demo site, built using Ionic 3, Node.js on top of cloud stored db (MongoDB-AWS)
+ </div>
+</ion-footer>
