@@ -2,7 +2,7 @@
 
 [[LIVE DEMO]](https://to-do-list-site-demo.firebaseapp.com)
 
-`User: Nivf Pass: 123123`
+`User: niv@test.com Pass: 123`
 
 ### Installation & Development
 
