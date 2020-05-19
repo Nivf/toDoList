@@ -1,9 +1,5 @@
 # Ionic/Angular To Do List App
 
-[[LIVE DEMO]](https://to-do-list-site-demo.firebaseapp.com)
-
-`User: niv@test.com Pass: 123`
-
 ### Installation & Development
 
 1. clone this repo: `git clone https://github.com/Nivf/toDoList.git`
