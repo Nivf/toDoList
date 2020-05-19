@@ -7,4 +7,4 @@
 3. `npm install`
 4. run `ionic serve` from a terminal
 
-Also needed is the Node.js server.
+Also needed is the Node.js server - [LINK](https://github.com/Nivf/node-server-to-heroku)
